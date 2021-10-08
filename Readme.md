@@ -1,15 +1,12 @@
 # Assignment-1
 
-## 2012064 assignment for CS 201
-
-## Data Structures,
-
-## Department of Computer Science and Engineering,
-
-## National Institute of Technology Silchar
+> **2012064 assignment for CS 201** <br/>
+> **Data Structures, <br/>
+> Department of Computer Science and Engineering, <br/>
+> National Institute of Technology Silchar**
 
 ---
-Questions:
+***Questions***:
 
 - Write a C compiler to check whether a given number is a valid floating point number or not. Write for all possible all test cases. Example: input: 2.0 output: valid input: 1. output: invalid
 
