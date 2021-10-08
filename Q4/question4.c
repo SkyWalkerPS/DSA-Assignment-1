@@ -18,10 +18,10 @@ void selection_sort(int a[], int n)
         a[i]=a[minIdx];
         a[minIdx]=temp;
     }
-    printf("Selection Sorted Array:\n");
-    for(int i=0;i<n;i++)
-        printf("%d ",a[i]);
-    printf("\n");
+    // printf("Selection Sorted Array:\n");
+    // for(int i=0;i<n;i++)
+    //     printf("%d ",a[i]);
+    // printf("\n");
 }
 void bubble_sort(int a[], int n)
 {
@@ -39,10 +39,10 @@ void bubble_sort(int a[], int n)
         }
         counter++;
     }
-    printf("Bubble Sorted Array:\n");
-    for(int i=0;i<n;i++)
-        printf("%d ",a[i]);
-    printf("\n");
+    // printf("Bubble Sorted Array:\n");
+    // for(int i=0;i<n;i++)
+    //     printf("%d ",a[i]);
+    // printf("\n");
 }
 int main()
 {
@@ -59,7 +59,11 @@ int main()
     start=clock();
     selection_sort(arr1,n);
     end=clock();
-    printf("Total time elapsed for selection sort: %f\n",(double)(end-start)/CLOCKS_PER_SEC);
+    printf("Total time taken by selection sort for unsorted array: %f\n",(double)(end-start)/CLOCKS_PER_SEC);
+    start=clock();
+    selection_sort(arr1,n);
+    end=clock();
+    printf("Total time taken by selection sort for sorted array: %f\n",(double)(end-start)/CLOCKS_PER_SEC);
 
 
 
@@ -67,5 +71,9 @@ int main()
     start2=clock();
     bubble_sort(arr2,n);
     end2=clock();
-     printf("Total time elapsed for bubble sort: %f\n",(double)(end2-start2)/CLOCKS_PER_SEC);
+     printf("Total time taken by bubble sort for unsorted array: %f\n",(double)(end2-start2)/CLOCKS_PER_SEC);
+    start2=clock();
+    bubble_sort(arr2,n);
+    end2=clock();
+     printf("Total time taken by bubble sort for sorted array: %f\n",(double)(end2-start2)/CLOCKS_PER_SEC);
 }
