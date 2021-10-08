@@ -14,4 +14,8 @@
 
 - Let us assume that A is a single dimensional array. You have given A array to construct a two- dimensional array. Write a C program to convert explicitly from 2D array to 1D array. Example, Map(A, i, j) gives you A[i][j]. You can use either row-major order or column-major order.
 
-- Write a C program to benchmark the performance of Selection Sort and Bubble Sort. Total input items may be randomly generated and already sorted. You have to tell your story using the bar chart as given below for an example.
+- Write a C program to benchmark the performance of Selection Sort and Bubble Sort. Total input items may be randomly generated and already sorted. You have to tell your story using the bar chart as given below for an example. 
+<br/>
+
+![image](https://user-images.githubusercontent.com/75561866/136516049-f72727b7-bcbb-4f73-82bb-b84d5ed7f6a5.png)
+
